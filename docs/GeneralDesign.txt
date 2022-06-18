@@ -1,0 +1,80 @@
+Editor Design
+#############
+
+I would like two things to be visualizable and editable in VGSE:
+
+	Story Structure Information and dialogue/event trees
+
+
+
+
+Story Structure Data
+####################
+
+Story Structure Information is all the general information about story. This consists of:
+
+## Narrative ()
+## Research & Design
+## Notes
+
+
+I thought of some diagrams that this could be broken up into (This could use further research):
+
+## Plot Mountain
+
+	A "plot mountain" graph labeled with events from user's
+	story. This would be used to organize:
+		
+		## Characters, Setting, Conflict
+		## Plot events
+
+## Passage
+
+	A passage on a specific topic, such as characters, settings,
+	research events, etc.
+
+
+## Works Cited
+
+	A quick place for citations.
+
+
+## Notes
+
+	unorganized notes, which user may desire to expand on
+	later.
+
+
+
+
+Dialogue Trees
+##############
+
+Dialogue Trees are the structures that hold game-ready dialogue. They should be highly editable, and I would like to present different formats for editing them.
+
+There are a few features that I would like dialogue trees to contain:
+
+## Easy event-branch implimentation
+
+	I want all dialogue paths that involve triggering in-game events
+	to have an easy way of triggering such events. Users should by
+	no means have to revisit their story files after editing in
+	vgse.
+
+
+## Multiple ways of editing
+
+	Since script-writing is traditionally non-graphical I would like
+	to provide a text-based editor, as well as a visual editor, to
+	write stories in.
+
+
+## Easy to use, intuitive design
+
+	I've thought about this one. :)
+	
+	vgse data should be presented schrewdly. Other editors suffer
+	from lots of upfront data, and non-intuitive bindings (albiet,
+	this is a part of software creating, I understand). But I've
+	been thinking of different ways to cut through some of this
+	chaos.

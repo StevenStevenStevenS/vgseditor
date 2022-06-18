@@ -1,0 +1,7 @@
+About Visual Game Studio Editor
+###############################
+
+VGSE is a tool for creating story for video games. It's not for creating entire video games, like a game editor, but instead for visualizing and storing data about stories. It would output a file of data about a created story on finish.
+
+~~
+VGSE probably doesn't need to be anything too ~~ fancy, because it is a relatively small part of video games (don't get me wrong - story is a large part of video games; just not everything. If we focus mostly on story & things that happen during a story, we don't even need to dip into mechanics, or writing elaborate code)~~
