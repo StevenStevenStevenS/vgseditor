@@ -7,98 +7,98 @@
 "Below are all visual-scripting nodes split into three categories - Story, Dialogue, and Functional - based on their purposes." (Story is for Story Structure Data; Dialogue is for Dialogue Trees, and Functional are for coding.)
 
 
-##Story Nodes
-#############
+##Story Structure Nodes
+#######################
 
-Story nodes are nodes that help user figure out story.
+Story Structure Nodes are organizational devices for story.
 
 
 ###Plot Mountain
 
-A "plot mountain" graph labeled with events from user's story. Designed to be used in plot organization.
+	A "plot mountain" graph labeled with events. Designed to
+	organize plot.
 
 
 ###Passage
 
-A passage on a specific topic.
-
-**By default, it contains:**
-- Title
-- Image/3D object
-- text
-
-Text can be formatted with HTML/markdown.
-
-Passages can be used in dialogue as text descriptions of characters, objects, etc; and their images/3D objects can be used as facial expressions in dialogue strings.
+	A passage on a specific topic. Serve primarly as an
+	organizational device for story-writers.
 
 
 ###History
 
-A passage on a research topic.
-
-The same thing as "Passage" node, but marked as history. This allows differentiation between user's research topics and text of in-game characters/objects. Will not appear on in-game lists/pockets.
+	A passage on a research topic. The same as "Passage" node,
+	but marked as history.
 
 
 ### Thesis
 
-Thesis w/ title. For user's viewing.
+	Description of thesis.
+
+
+## Theme
+
+	Description of theme.
 
 
 ###Conflict
 
-Description of conflict. For user's viewing.
+	Description of conflict.
 
 
 ###Event
 
-Description of event. For user's viewing.
+	Description of event.
 
 
 ###Comment
 
-Plain-text to help document node flow.
+	Plain-text.
 
 
 ###Notes
 
-HTML & markdown-formattable text on colored background. Allows for quick, unorganized notes, which user may desire to expand on later.
+HTML-formattable text on colored background. Allows for quick, unorganized notes, which user may desire to expand on later.
 
 
 ###Sources
 
-A node to quickly/easily keep track of sources. Provides automatic formatting. ~ (Potentially.)
+A node to quickly/easily keep track of sources. Provides automatic formatting?
 
 
 
-## Dialogue Nodes
-#################
+## Dialogue Tree Nodes
+######################
 
-###Tag
-
-A pointer. Makes nodes/chunks of dialogue easily grabbable for User.
-
-
-##Start
-
-Similar to Tag, pointer to first piece of dialogue in the story.
-Should in-editor testing be implimented, would be used to get the first piece of dialogue for in-editor dialogue tester.
+Dialogue tree nodes are nodes meant to be used in a game-ready
+dialogue tree.
 
 
 ##StoryNode (Dialogue)
 
-A container of dialogue to be printed on-screen.
+Dialogue to be printed on-screen.
 
-**There are 4 parts to a Story Node:** ~
+Contains 4 parts:
 - Text
 - Spirit (Optional) - indicator of "spirit" in which dialogue is told.
 - Next Node(s)
-- Before Functions
-- After Functions
+- Before Functions (Op)
+- After Functions (Op)
+
+
+###Tag
+
+A pointer to Makes nodes/chunks of dialogue easily grabbable.
+
+
+##Start
+
+Pointer to first piece of dialogue in the story.
 
 
 ##Input
 
-Container of dialogue, but with the intention that user will "input" text, rather than choosing a pre-set option. Paired with functional nodes/code, makes in-game parsing possible.
+Similar to StoryNode, container of dialogue, but with intention that user will "input" text, rather than choosing an option. (via button, etc.)
 
 
 ##Audio
@@ -116,24 +116,25 @@ Markers also contain four parts:
 - spirit
 - next
 
-This allows for easy time-specific events during audio-dialogue. This could potentially be used for basic time-specific animations, mid-dialogue choices, or just captions.
+This allows for easy time-specific events during audio-dialogue, like decisions, or animations.
 
 
 ## Option
 
-A container of Option-Text, and an indicator of an in-game choice when placed after a node.
-
+Option-Text and indicator of an in-game choice when placed after a node.
 
 
 ##End
 
-A node representative of the end of all dialogue in a story.
-Should in-editor testing be implimented, would be used to close in-editor dialogue tester.
+Marks end of all dialogue.
 
 
 
 ## Functional Nodes
 ###################
+
+
+Functional Nodes are code structures that can be used to add code to dialogue trees.
 
 ~
 Functional nodes are all based off of real ~ code structures ~ . The nodes are all designed to contain exactly the info used in the real code structures, function exactly the same, and to be built simply paired to the original code structure.
